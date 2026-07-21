@@ -4,8 +4,8 @@
   "description": "Fast Save - Video Downloader",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "echo Build complete"
+    "build": "bash build.sh",
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
